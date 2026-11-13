@@ -18,3 +18,5 @@ Static site. No build command. Output directory: `/`. Deploy this repository as 
 4. Verify checkout, mobile layout, and language switching.
 
 The page currently uses a CSS-built product preview, not a screenshot of the live application.
+
+Site comercial Starting Toolkit
