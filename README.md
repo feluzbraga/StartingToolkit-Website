@@ -1,11 +1,20 @@
 # Starting Toolkit - Commercial Website
 
-Static multilingual site for Cloudflare Pages.
+Multilingual static sales website for Cloudflare Pages.
 
-- `/pt/`, `/en/`, `/es/`: localized landing pages.
-- `/blog/pt.html`, `/blog/en.html`, `/blog/es.html`: initial blog topics in three languages.
-- `/config/site-config.js`: Hotmart checkout URLs and app URL.
+- `/pt/`: Portuguese offer for Brazil, R$ 87.
+- `/en/`: English international offer, US$ 19.
+- `/es/`: Spanish international offer, US$ 19.
+- `/blog/`: initial editorial pages in three languages.
+- `/config/site-config.js`: replace the two Hotmart checkout placeholders before accepting purchases.
 
-Before publishing: replace the two placeholder checkout URLs, complete and legally review privacy.html and terms.html, then upload this folder to a NEW GitHub repository and connect it to a NEW Cloudflare Pages project. Build command: none. Output directory: `/`. Attach `startingtoolkit.com` to the new Pages project. Do not alter the existing app project at app.startingtoolkit.com.
+## Deploy
+Static site. No build command. Output directory: `/`. Deploy this repository as a separate Cloudflare Pages project and attach `startingtoolkit.com`. Keep the existing app project and `app.startingtoolkit.com` unchanged.
 
-Checkout URLs are placeholders because the actual Hotmart URLs were not supplied yet.
+## Before launch
+1. Replace `COLE_AQUI_LINK_HOTMART_R$87` with the Brazilian Hotmart checkout URL.
+2. Replace `COLE_AQUI_LINK_HOTMART_US$19` with the international Hotmart checkout URL.
+3. Review and complete the privacy and terms pages with the business operator details and applicable legal information.
+4. Verify checkout, mobile layout, and language switching.
+
+The page currently uses a CSS-built product preview, not a screenshot of the live application.
